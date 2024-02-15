@@ -24,6 +24,11 @@ table {
 table thead th {
     padding-block: 1rem;
     border: solid 1px #aeaeae;
+    background-color: rgb(255, 140, 242);
+}
+.no {
+    background-color: rgb(129, 6, 109);
+    color: white;
 }
 table tbody td {
     padding-block: 0.25rem;
@@ -33,6 +38,9 @@ table tbody td:not(:first-child) {
     padding-block: 0.25rem;
     padding-inline: 0.3rem;
     border: solid 1px #aeaeae;
+}
+table tbody tr:nth-child(odd) {
+    background-color: #aeaeae;
 }
 
 table tbody tr td:first-child {
